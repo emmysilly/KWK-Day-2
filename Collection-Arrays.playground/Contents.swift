@@ -52,3 +52,13 @@ favHobbies.append("Drum Core")
 favHobbies.remove(at: 1)
 print(favHobbies[2])
 
+//Dictionary
+
+//Example of Dictionary
+var friendsKarlie = [
+    "Politician”:”Michelle Obama", //"Key": "value", "value", "value"
+    "Athlete”:”Serena Williams",
+    "Musician”:”T Swift",
+    "Comedian”:”Jimmy Fallon"
+]
+print(friendsKarlie)
