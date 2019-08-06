@@ -23,3 +23,15 @@ func walkDog(numberOfDogs : Int){ //Declaring a function
 }
 
 walkDog(numberOfDogs: 5)    //Calling a function
+
+
+//Function Robot
+
+func referRobot(team1: Int, team2: Int, time: Double, endGame: String){
+    print("Team 1 Score: \(team1)")
+    print("Team 2 Score: \(team2)")
+    print("Time Left: \(time)")
+    print("When clock hits 0, \(endGame)!")
+}
+
+referRobot(team1: 10, team2: 15, time: 15.30, endGame: "game is over")
