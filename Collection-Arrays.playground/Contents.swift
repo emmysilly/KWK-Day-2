@@ -39,3 +39,16 @@ Think about Instagram or Facebook - where might those applications use arrays?
 */
 
 
+var roleModels = ["Rihanna", "Malcolm Gladwell", "Lizzo"]
+roleModels[1]
+roleModels.append("Realistic Barbie")
+roleModels[3] = "Mark Twain"
+roleModels.remove(at: 3)
+print(roleModels[2])
+
+var favHobbies = ["Reading", "Drums", "Cello", "Sleeping", "Cooking"]
+favHobbies[3] = "Jogging"
+favHobbies.append("Drum Core")
+favHobbies.remove(at: 1)
+print(favHobbies[2])
+
