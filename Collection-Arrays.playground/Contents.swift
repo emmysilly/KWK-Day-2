@@ -62,3 +62,50 @@ var friendsKarlie = [
     "Comedian”:”Jimmy Fallon"
 ]
 print(friendsKarlie)
+
+
+var perfectTen : [String : String] = [:]
+
+perfectTen["almond flour"] = "3 and 1/2 cups"
+perfectTen["gluten-free oats"] = "2 cups"
+perfectTen["mini chocolate chips"] = "1 cup"
+
+print(perfectTen)
+print(perfectTen["gluten-free oats"]!)
+perfectTen["gluten-free oats"] = nil
+
+
+
+var famBirthday : [String : String] = [:]
+    famBirthday["Katelyn"] = "January 20, 2001"
+    famBirthday["Anna Paula"] = "October 31, 2001"
+    famBirthday["Mary"] = "June 6, 2003"
+    famBirthday["Emmy"] = "August 29, 2000"
+
+print(famBirthday)
+
+
+ 
+var birthdays = [
+    "Katelyn" : "January 20, 2001",
+    "Anna Paula" : "October 31, 2001",
+    "Mary" : "June 6, 2003",
+]
+
+
+//multiple values to a single key
+
+
+var family = [
+    "Sarah" : "Sister",
+    "Raysa" : "Mother",
+    "Michael" : "Father",
+    "Sam" : "Cat"
+]
+print(family)
+
+print(family["Raysa"]!)
+print(family["Sarah"]!)
+print(family["Michael"]!)
+family["Sam"] = nil
+
