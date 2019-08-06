@@ -32,6 +32,38 @@ func referRobot(team1: Int, team2: Int, time: Double, endGame: String){
     print("Team 2 Score: \(team2)")
     print("Time Left: \(time)")
     print("When clock hits 0, \(endGame)!")
+    if team1 > team2 {
+        print("Team 1 Won!")
+    }
+    else if team2 > team1 {
+        print("Team 2 Won!")
+    }
+    else{
+        print("It is a Tie!")
+    }
 }
 
-referRobot(team1: 10, team2: 15, time: 15.30, endGame: "game is over")
+referRobot(team1: 15, team2: 15, time: 15.30, endGame: "game is over")
+
+
+
+//Return Function
+func bankAccount(currentBalance: Double, deposit: Double) -> Double{
+    let newBalance = currentBalance + deposit
+    return newBalance
+}
+let customerAmountInBank = bankAccount(currentBalance: 13.5, deposit: 54.0)
+func interestAmount(percentInterest: Double) -> Double{
+    let amountInBank = customerAmountInBank
+    let customerInterestAcccrued = amountInBank * percentInterest
+    return customerInterestAcccrued
+}
+print(interestAmount(percentInterest: 10.0))
+
+/*
+ Pink: Data Type
+ Green: Variable
+ Purple:Numbers, Doubles, int
+ Blue: Data Type with value?
+ 
+ */
