@@ -16,3 +16,26 @@ friendsOfKarlie[2]
 friendsOfKarlie[0]
 //-> Michelle Obama
 
+//Example updating information
+
+friendsOfKarlie[2] = "Josh Kushner"
+friendsOfKarlie[2]
+//-> var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "Josh Kushner", "Jimmy Fallon"]
+
+//Example of Adding Information
+friendsOfKarlie.append("Emmy Chavez")
+
+//Removing Information
+friendsOfKarlie.remove(at: 2)
+print(friendsOfKarlie)
+
+/*
+Think about Instagram or Facebook - where might those applications use arrays?
+- Friends List
+- List of people of liked an image
+- Friend Groups
+- List of Comments
+- List of Conversations
+*/
+
+
